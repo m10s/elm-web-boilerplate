@@ -1,0 +1,34 @@
+{
+  "name": "elm-web-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate for developing Elm web applications",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m10s/elm-web-boilerplate.git"
+  },
+  "keywords": [
+    "elm",
+    "boilerplate",
+    "webpack"
+  ],
+  "author": "Michael Weiss",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/m10s/elm-web-boilerplate/issues"
+  },
+  "homepage": "https://github.com/m10s/elm-web-boilerplate#readme",
+  "devDependencies": {
+    "elm-webpack-loader": "^2.0.1",
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.3.0",
+    "file-loader": "^0.8.5",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
