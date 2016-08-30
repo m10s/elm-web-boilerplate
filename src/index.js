@@ -1,4 +1,3 @@
-require('./index.html');
+const Elm = require('./app/Main.elm');
 
-const Elm = require('./Main');
-Elm.embed(Elm.Main, document.getElementById('main'));
+Elm.Main.embed(document.getElementById('main'), {});
