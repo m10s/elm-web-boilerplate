@@ -1,3 +1,3 @@
 const Elm = require('./app/Main.elm');
 
-Elm.Main.embed(document.getElementById('main'), {});
+Elm.Main.embed(document.getElementById('main'));
